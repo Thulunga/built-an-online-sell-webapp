@@ -32,11 +32,12 @@ const SearchContainer = styled.div`
   align-items: center;
   margin-left: 25px;
   padding: 5px;
-  border-radius:12px;
+  border-radius: 12px;
 `;
 
 const Input = styled.input`
   border: none;
+  width: auto;
 `;
 
 const Center = styled.div`
@@ -66,13 +67,13 @@ const Navbar = () => {
       <Wrapper>
         <Left>
           <Language>EN</Language>
-
           <SearchContainer>
             <Input placeholder="Search" />
             <Search style={{ color: "green", fontSize: 16 }} />
           </SearchContainer>
         </Left>
         <Center>
+          
           <Logo>Thulunga</Logo>
         </Center>
         <Right>
